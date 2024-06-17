@@ -19,6 +19,7 @@ function playGame(playerChoice) {
 
   if (playerChoice === computerChoice) {
     result = "It's a tie!";
+    resultDisplay.style.color = "black";
   } else {
     switch (playerChoice) {
       case "rock":
